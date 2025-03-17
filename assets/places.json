@@ -1,0 +1,60 @@
+{
+    "places": [
+      {
+        "id": "1",
+        "title": "Calle de la Cava Baja",
+        "description": "A narrow street in the city center, famous for its traditional Madrid taverns. They serve the famous 'cocido madrileño' (national stew soup) and excellent Spanish wines.",
+        "image": "assets/images/places/1.png",
+        "coordinates": { "latitude": 40.412427, "longitude": -3.709225 },
+        "wasHere": false,
+        "type": ["gastronomy", "popular"],
+        "isUserAdded": false,
+        "isFavorite": false
+      },
+      {
+        "id": "2",
+        "title": "Gran Via",
+        "description": "Madrid's main shopping and entertainment street, famous for its theaters, cinemas and nightlife. It is the Spanish equivalent of Broadway, where you can find fashionable boutiques, panoramic terraces and luxury hotels.",
+        "image": "assets/images/places/2.png",
+        "coordinates": { "latitude": 40.419906, "longitude": -3.701755 },
+        "wasHere": false,
+        "type": ["popular", "architecture"],
+        "isUserAdded": false,
+        "isFavorite": false
+      },
+      {
+        "id": "3",
+        "title": "Temple of Debod",
+        "description": "This Egyptian temple was given to Spain by the Egyptian government and brought to Madrid stone by stone. It is located in a picturesque park, and in the evening it is beautifully illuminated, creating a romantic atmosphere.",
+        "image": "assets/images/places/3.png",
+        "coordinates": { "latitude": 40.424030, "longitude": -3.717850 },
+        "wasHere": false,
+        "type": ["parks", "architecture"],
+        "isUserAdded": false,
+        "isFavorite": false
+      },
+      {
+        "id": "4",
+        "title": "Almudena Cathedral",
+        "description": "The main cathedral of Madrid, built in an unusual combination of neo-Gothic and Art Nouveau. Inside you can see a luxurious altar, stained glass windows and a crypt with Roman catacombs.",
+        "image": "assets/images/places/4.png",
+        "coordinates": { "latitude": 40.415606, "longitude": -3.714609 },
+        "wasHere": false,
+        "type": ["architecture", "popular"],
+        "isUserAdded": false,
+        "isFavorite": false
+      },
+      {
+        "id": "5",
+        "title": "Descalzas Reales Monastery",
+        "description": "A former monastery of Spanish infantas and aristocrats. Inside there are magnificent frescoes, antique furniture and a unique collection of paintings by Renaissance masters.",
+        "image": "assets/images/places/5.png",
+        "coordinates": { "latitude": 40.418419, "longitude": -3.706184 },
+        "wasHere": false,
+        "type": ["architecture", "parks"],
+        "isUserAdded": false,
+        "isFavorite": false
+      }
+    ]
+  }
+  

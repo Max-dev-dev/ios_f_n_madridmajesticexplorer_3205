@@ -1,0 +1,95 @@
+{
+    "quiz": [
+      {
+        "image": "assets/images/quiz/1.png",
+        "question": "What is the name of the main square in Madrid where New Year's Eve is celebrated?",
+        "answer_a": "Plaza Mayor",
+        "answer_b": "Puerta del Sol",
+        "answer_c": "Plaza de Cibeles",
+        "answer_d": "Plaza de Oriente",
+        "right_answer": "answer_b"
+      },
+      {
+        "image": "assets/images/quiz/2.png",
+        "question": "Which building is the official residence of the Spanish king?",
+        "answer_a": "Royal Palace",
+        "answer_b": "Alcazar",
+        "answer_c": "Palace of Liria",
+        "answer_d": "Casa de la Villa",
+        "right_answer": "answer_a"
+      },
+      {
+        "image": "assets/images/quiz/3.png",
+        "question": "What traditional dish is most often associated with Madrid?",
+        "answer_a": "Paella",
+        "answer_b": "Gazpacho",
+        "answer_c": "Cocido madrileño",
+        "answer_d": "Pinchos",
+        "right_answer": "answer_c"
+      },
+      {
+        "image": "assets/images/quiz/4.png",
+        "question": "Which famous museum is part of Madrid's 'Golden Triangle of Art' ?",
+        "answer_a": "Louvre",
+        "answer_b": "Prado",
+        "answer_c": "Hermitage",
+        "answer_d": "Guggenheim",
+        "right_answer": "answer_b"
+      },
+      {
+        "image": "assets/images/quiz/5.png",
+        "question": "What animal is depicted on the coat of arms of Madrid?",
+        "answer_a": "Lion",
+        "answer_b": "Eagle",
+        "answer_c": "Bear",
+        "answer_d": "Bull",
+        "right_answer": "answer_c"
+      },
+      {
+        "image": "assets/images/quiz/6.png",
+        "question": "In which park is the famous Crystal Palace located?",
+        "answer_a": "Retiro Park",
+        "answer_b": "Casa de Campo",
+        "answer_c": "Debod Park",
+        "answer_d": "Oeste Park",
+        "right_answer": "answer_a"
+      },
+      {
+        "image": "assets/images/quiz/7.png",
+        "question": "What is the name of the central street in Madrid, famous for its theaters and shops?",
+        "answer_a": "Gran Via",
+        "answer_b": "Paseo de Gracia",
+        "answer_c": "La Rambla",
+        "answer_d": "Alcalá",
+        "right_answer": "answer_a"
+      },
+      {
+        "image": "assets/images/quiz/8.png",
+        "question": "Which football club represents Madrid and is considered one of the most titled in the world?",
+        "answer_a": "Atlético Madrid",
+        "answer_b": "Barcelona",
+        "answer_c": "Real Madrid",
+        "answer_d": "Sevilla",
+        "right_answer": "answer_c"
+      },
+      {
+        "image": "assets/images/quiz/9.png",
+        "question": "What type of transport first appeared in Madrid in 1919?",
+        "answer_a": "Buses",
+        "answer_b": "Trams",
+        "answer_c": "Metro",
+        "answer_d": "Pedicabs",
+        "right_answer": "answer_c"
+      },
+      {
+        "image": "assets/images/quiz/10.png",
+        "question": "Which popular market is considered a gastronomic paradise in Madrid?",
+        "answer_a": "San Miguel",
+        "answer_b": "La Boqueria",
+        "answer_c": "Rastro",
+        "answer_d": "Chamartín",
+        "right_answer": "answer_a"
+      }
+    ]
+  }
+  
