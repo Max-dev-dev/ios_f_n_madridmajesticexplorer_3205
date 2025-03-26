@@ -70,7 +70,6 @@ class QuizCubit extends Cubit<QuizState> {
 
     await Future.delayed(const Duration(seconds: 2));
 
-    // Визначаємо правильну відповідь у вигляді A, B, C, D
     final correctAnswerKey =
         {
           "answer_a": "A",
@@ -80,7 +79,6 @@ class QuizCubit extends Cubit<QuizState> {
         }[_questions[_currentIndex].rightAnswer] ??
         _questions[_currentIndex].rightAnswer;
 
-    // Порівнюємо з відповіддю користувача
     if (selectedAnswer == correctAnswerKey) {
       _score++;
     }

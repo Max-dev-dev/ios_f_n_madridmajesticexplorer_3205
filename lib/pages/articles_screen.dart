@@ -7,7 +7,7 @@ class ArticlesScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final double width = MediaQuery.of(context).size.width;
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.transparent,
       body: Column(
         children: [
           const SizedBox(height: 60),
@@ -346,7 +346,7 @@ class DetailsScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.transparent,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios, color: Colors.white),
           onPressed: () => Navigator.pop(context),

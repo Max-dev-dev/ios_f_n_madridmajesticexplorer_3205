@@ -16,7 +16,7 @@ class QuizScreen extends StatelessWidget {
     return BlocProvider(
       create: (_) => QuizCubit()..loadQuestions(),
       child: Scaffold(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.transparent,
         body: BlocBuilder<QuizCubit, QuizState>(
           builder: (context, state) {
             return state.when(

@@ -21,7 +21,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
   Widget build(BuildContext context) {
     final double width = MediaQuery.of(context).size.width;
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.transparent,
       body: Column(
         children: [
           const SizedBox(height: 60),
@@ -232,9 +232,9 @@ class _DetailsScreenState extends State<DetailsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.transparent,
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.transparent,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios, color: Colors.white),
           onPressed: () {

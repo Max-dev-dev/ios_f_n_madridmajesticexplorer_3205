@@ -94,9 +94,9 @@ class _EditUserPlaceScreenState extends State<EditUserPlaceScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.transparent,
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.transparent,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios, color: Colors.white),
           onPressed: () => Navigator.pop(context),

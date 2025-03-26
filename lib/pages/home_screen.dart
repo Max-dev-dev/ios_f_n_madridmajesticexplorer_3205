@@ -23,8 +23,7 @@ class HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     super.initState();
-    _selectedIndex =
-        widget.initialTabIndex;
+    _selectedIndex = widget.initialTabIndex;
   }
 
   final List<Widget> _screens = [
@@ -49,11 +48,10 @@ class HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF272727),
+      backgroundColor: Colors.transparent,
       body: _screens[_selectedIndex],
       bottomNavigationBar: Container(
         decoration: const BoxDecoration(color: Color(0xFF1C1C1C)),
-        padding: const EdgeInsets.only(bottom: 10),
         child: BottomNavigationBar(
           type: BottomNavigationBarType.fixed,
           backgroundColor: Colors.transparent,
@@ -62,8 +60,8 @@ class HomeScreenState extends State<HomeScreen> {
           unselectedItemColor: Colors.white,
           currentIndex: _selectedIndex,
           onTap: onItemTapped,
-          showSelectedLabels: true,
-          showUnselectedLabels: true,
+          showSelectedLabels: false,
+          showUnselectedLabels: false,
           items: [
             _buildNavItem(Icons.location_on, "Map", 0),
             _buildNavItem(Icons.star, "Favorites", 1),
@@ -123,7 +121,7 @@ class QuizStartScreen extends StatelessWidget {
     return BlocProvider(
       create: (_) => QuizCubit()..loadQuestions(),
       child: Scaffold(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.transparent,
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
