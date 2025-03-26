@@ -161,7 +161,6 @@
 				11DA678EF22C51C43BF8E63F /* Pods-RunnerTests.release.xcconfig */,
 				81CDBB936BF31303F1DC1BC5 /* Pods-RunnerTests.profile.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -477,7 +476,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.iosFNMadridmajesticexplorer3205;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madrid.majesticexplorer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -664,7 +663,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.iosFNMadridmajesticexplorer3205;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madrid.majesticexplorer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -691,7 +690,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.iosFNMadridmajesticexplorer3205;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madrid.majesticexplorer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
